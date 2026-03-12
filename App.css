@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 24px;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+.lead {
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.panel {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+label {
+  display: block;
+  font-weight: 600;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 12px;
+  font-size: 16px;
+}
+
+.now-box {
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: #f9fafb;
+  border-radius: 12px;
+}
+
+.sub {
+  margin-left: 8px;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.main-card {
+  background: #111827;
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.route-line {
+  font-size: 15px;
+  color: #d1d5db;
+}
+
+.train-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+.big-time {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.big-remaining {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.candidate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.candidate-button {
+  width: 100%;
+  text-align: left;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.candidate-button.selected {
+  background: #eef2ff;
+  border-color: #4f46e5;
+}
+
+.candidate-top {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+.candidate-bottom {
+  margin-top: 6px;
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.message {
+  padding: 14px;
+  border-radius: 12px;
+  background: #f9fafb;
+  color: #374151;
+}
+
+.message.small {
+  font-size: 14px;
+}
